@@ -8,5 +8,9 @@ namespace classesandobjects
 {
     public class RobotProperties
     {
+        public string name {  get; set; }
+        public string model { get; set; }
+
+        public int productionyear {  get; set; }
     }
 }
