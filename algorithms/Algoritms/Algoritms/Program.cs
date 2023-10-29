@@ -15,7 +15,9 @@ namespace Algoritms
         static void Main(string[] args)
         {
             Ogretmen ogretmen = new Ogretmen();
-
+            ogretmen.Ad = "zera";
+            ogretmen.Soyad = "kara";
+            ogretmen.Yas = 100;
         }
     }
 
