@@ -5,9 +5,9 @@ namespace Algoritms
 {
     public struct Ogretmen
     {
-        public string Ad;
-        public string Soyad;
-        public int Yas;
+        public string Ad { get; set; }
+        public string Soyad { get; set; }
+        public int Yas {  get; set; }
     }
 
     public class Program
@@ -18,6 +18,8 @@ namespace Algoritms
             ogretmen.Ad = "zera";
             ogretmen.Soyad = "kara";
             ogretmen.Yas = 100;
+
+            Console.WriteLine($"{ogretmen.Ad}"+" "+$"{ogretmen.Soyad}");
         }
     }
 
