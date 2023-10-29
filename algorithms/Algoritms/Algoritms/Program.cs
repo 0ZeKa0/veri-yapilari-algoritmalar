@@ -7,7 +7,20 @@ namespace Algoritms
     {
         public string Ad { get; set; }
         public string Soyad { get; set; }
-        public int Yas {  get; set; }
+        public int Yas { get; set; }
+
+        public Ogretmen(string ad, string soyad, int yas)
+        {
+            Ad = ad;
+            Soyad = soyad;
+            Yas = yas;
+
+        }
+
+        public override string ToString()
+        {
+            return Ad +" "+ Soyad +" "+ Yas;
+        }
     }
 
     public class Program
@@ -19,7 +32,21 @@ namespace Algoritms
             ogretmen.Soyad = "kara";
             ogretmen.Yas = 100;
 
-            Console.WriteLine($"{ogretmen.Ad}"+" "+$"{ogretmen.Soyad}");
+            var OgretmenListe = new List<Ogretmen>()
+            {
+                new Ogretmen("ad","soyad",20),
+                new Ogretmen("ad","soyad",20),
+                new Ogretmen("ad","soyad",20),
+                new Ogretmen("ad","soyad",20),
+                new Ogretmen("ad","soyad",20)
+            };
+
+            foreach(Ogretmen o in OgretmenListe)
+            {
+                Console.WriteLine(o);
+
+            }
+            OgretmenListe.ForEach(o => Console.WriteLine(o));
         }
     }
 
