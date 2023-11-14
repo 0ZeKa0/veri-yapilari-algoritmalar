@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\algorithms\\lineerveriyapıları\\DoubleLinkedList\\DoubleLinkedList\\DoubleLinkedList.csproj",
-      "projectName": "DoubleLinkedList",
-      "projectPath": "C:\\Users\\PC\\Desktop\\algorithms\\lineerveriyapıları\\DoubleLinkedList\\DoubleLinkedList\\DoubleLinkedList.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\algorithms\\lineerveriyapıları\\DoubleLinkedList\\DoubleLinkedList\\LinkedListDoubled.csproj",
+      "projectName": "LinkedListDoubled",
+      "projectPath": "C:\\Users\\PC\\Desktop\\algorithms\\lineerveriyapıları\\DoubleLinkedList\\DoubleLinkedList\\LinkedListDoubled.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PC\\Desktop\\algorithms\\lineerveriyapıları\\DoubleLinkedList\\DoubleLinkedList\\obj\\",
       "projectStyle": "PackageReference",

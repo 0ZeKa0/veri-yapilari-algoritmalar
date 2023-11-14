@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\bin\Debug\net6.0\LinkedListDoubled.exe
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\bin\Debug\net6.0\LinkedListDoubled.deps.json
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\bin\Debug\net6.0\LinkedListDoubled.runtimeconfig.json
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\bin\Debug\net6.0\LinkedListDoubled.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\bin\Debug\net6.0\LinkedListDoubled.pdb
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\LinkedListDoubled.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\LinkedListDoubled.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\LinkedListDoubled.AssemblyInfo.cs
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\LinkedListDoubled.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\LinkedListDoubled.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\refint\LinkedListDoubled.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\LinkedListDoubled.pdb
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\LinkedListDoubled.genruntimeconfig.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\DoubleLinkedList\DoubleLinkedList\obj\Debug\net6.0\ref\LinkedListDoubled.dll
