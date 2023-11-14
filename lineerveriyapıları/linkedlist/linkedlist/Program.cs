@@ -31,6 +31,7 @@ namespace LinkedList
             list.PrintSingleLinkedList();
             Console.WriteLine("RemoveFront işlemi listenin sonundan 2 eleman silindi. \t ");
             for(int i = 0;i < 2; i++)
+
             {
                 list.RemoveBack();
             }
