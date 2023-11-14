@@ -10,6 +10,10 @@ namespace DoubleLinkedList
     {
         public Node head;
 
+
+        //Öncelikle yeni oluşturulan nodeun referansının yani next değişkeninin önceki head'i göstermesi sağlanır
+        //daha sonra yeni oluşturulan noda head ve data ataması yapılır. Bu ekleme işlemi listenin en başından yapıldığı için 
+        //kaydırma işlemi başa yani head'e yapılacaktır.
         public void FrontAdd(DoubleLinkedList doubleLinkedList,int data)
         {
             Node newNode = new Node(data);
@@ -22,6 +26,8 @@ namespace DoubleLinkedList
 
 
         }
+
+        // Double Linked Listte Single Linked Listte olmayan bir şekilde sona da ekleme yapılabilmektedir.
         public void BackAdd(DoubleLinkedList doubleLinkedList,int data)
         {
             Node newNode = new Node(data);

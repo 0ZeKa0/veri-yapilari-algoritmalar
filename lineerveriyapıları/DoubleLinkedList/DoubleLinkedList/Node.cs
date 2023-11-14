@@ -18,7 +18,6 @@ namespace DoubleLinkedList
             this.data = data;
             this.next = null;
             this.prev = null;
-        
         }
     }
 }
