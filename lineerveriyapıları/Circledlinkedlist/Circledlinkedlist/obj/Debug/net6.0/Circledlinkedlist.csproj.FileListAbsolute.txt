@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\bin\Debug\net6.0\Circledlinkedlist.exe
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\bin\Debug\net6.0\Circledlinkedlist.deps.json
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\bin\Debug\net6.0\Circledlinkedlist.runtimeconfig.json
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\bin\Debug\net6.0\Circledlinkedlist.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\bin\Debug\net6.0\Circledlinkedlist.pdb
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\Circledlinkedlist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\Circledlinkedlist.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\Circledlinkedlist.AssemblyInfo.cs
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\Circledlinkedlist.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\Circledlinkedlist.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\refint\Circledlinkedlist.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\Circledlinkedlist.pdb
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\Circledlinkedlist.genruntimeconfig.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Circledlinkedlist\Circledlinkedlist\obj\Debug\net6.0\ref\Circledlinkedlist.dll
