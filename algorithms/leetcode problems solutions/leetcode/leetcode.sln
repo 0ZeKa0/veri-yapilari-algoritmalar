@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode", "leetcode\leetcode.csproj", "{9F56541C-50CD-42C1-AB67-BE93068CC559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F56541C-50CD-42C1-AB67-BE93068CC559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F56541C-50CD-42C1-AB67-BE93068CC559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F56541C-50CD-42C1-AB67-BE93068CC559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F56541C-50CD-42C1-AB67-BE93068CC559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E22CB75-EDBA-4C65-949C-729AA9183A70}
+	EndGlobalSection
+EndGlobal
