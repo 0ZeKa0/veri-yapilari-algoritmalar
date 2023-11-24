@@ -1,4 +1,5 @@
-﻿using System;
+﻿using leetcode;
+using System;
 using System.Collections.Generic;
 
 class GFG
@@ -21,7 +22,8 @@ class GFG
         int[,] indices = new int[1, 2];
         for(int i = 0;i<arr.Length;i++)
         {
-            indices[0, 0] = i; //ilk indise arrdaydeki değer atandı. Ama değer değil indis isteniyor. Bu sebeple direkt indis atamasıyaptım.
+            indices[0, 0] = i; //ilk indise arrdaydeki değer atandı. Ama değer değil indis isteniyor.
+                               //Bu sebeple direkt indis atamasıyaptım.
             result = target - arr[i];
             for(int j = 0; j < arr.Length; j++)
             {
@@ -34,5 +36,12 @@ class GFG
             }
         }
         return " ";
+    }
+
+    static int Linked_List_Sum(SingleNode l1, SingleNode l2)
+    {
+
+
+        return 0;
     }
 }
