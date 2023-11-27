@@ -20,5 +20,9 @@ namespace leetcode
             }
             curr.next = new SingleNode(data);
         }
+        void addToFront(int data)
+        {
+
+        }
     }
 }

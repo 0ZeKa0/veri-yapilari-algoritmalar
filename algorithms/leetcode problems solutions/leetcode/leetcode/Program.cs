@@ -41,7 +41,10 @@ class GFG
     static int Linked_List_Sum(SingleNode l1, SingleNode l2)
     {
 
+        while(l1!=null || l2!= null)
+        {
 
+        }
         return 0;
     }
 }
