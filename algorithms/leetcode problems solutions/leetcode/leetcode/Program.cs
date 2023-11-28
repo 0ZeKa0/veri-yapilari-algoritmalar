@@ -11,6 +11,18 @@ class GFG
         int[]arr= { 2,7,8,1};
         int target = 9;
         Console.WriteLine(sum(arr,target));
+
+        LinkedList l1 = new LinkedList();
+        LinkedList l2 = new LinkedList();
+
+        l1.addToEnd(2);
+        l1.addToEnd(4);
+        l1.addToEnd(3);
+        l2.addToEnd(5);
+        l2.addToEnd(6);
+        l2.addToEnd(4);
+
+        Linked_List_Sum(l1, l2);
     }
     // istenilen toplam için dizi içinden sayılar bulup toplama işlemi
     // bu fonksiyon yalnızca 1 çift gönderir. 
@@ -37,14 +49,44 @@ class GFG
         }
         return " ";
     }
-
-    static int Linked_List_Sum(SingleNode l1, SingleNode l2)
+    // Dolu iki listenin her bir nodu bir sayının basamağını ifade ediyor.
+    // Örneğin 342 sayısı 2 -> 4 -> 3 şeklinde listeye ekleniyor.
+    // İki liste elemanının sahip olduğu sayıların toplamı ise l3 adındaki üçüncü bir listeye
+    // eklenmiş olacak.
+    // Probleme linkedliste after işlemi ile ekleme yapmayı öğrendikten sonra devam edilecek.
+    static void Linked_List_Sum(LinkedList l1, LinkedList l2)
     {
+        LinkedList l3 = new LinkedList();
+        int carry = 0;
+        int result = 0;
 
         while(l1!=null || l2!= null)
         {
+            int l1_val=0, l2_val=0, last_digit=0;
+
+            if (l1!=null)
+            {
+                l1_val = l1.ReturnLastDigit();
+            }
+            else
+            {
+                l1_val = 0;
+            }
+            if (l2!=null)
+            {
+                l2_val = l2.ReturnLastDigit();
+            }
+            else
+            {
+                l2_val = 0;
+            }
+
+            result = l1_val + l2_val + carry;
+            carry = result / 10;
+            last_digit = result % 10;
+            l3.addToEnd(last_digit);
 
         }
-        return 0;
+        
     }
 }

@@ -16,7 +16,5 @@ namespace leetcode
             this.data = data;
             this.next = null;
         }
-
-        
     }
 }

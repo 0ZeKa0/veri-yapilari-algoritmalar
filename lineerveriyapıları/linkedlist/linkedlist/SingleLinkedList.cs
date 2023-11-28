@@ -11,7 +11,7 @@ namespace linkedlist
         public Node head;
         public int count = 0;
 
-        // Yeni bir nsne oluşturulduğunda head'E direkt bir null ataması yapılacaktır. 
+        // Yeni bir nsne oluşturulduğunda head'e direkt bir null ataması yapılacaktır. 
         public SingleLinkedList()
         {
             head = null;
@@ -84,6 +84,42 @@ namespace linkedlist
 
             }
         
+        }
+        // LinkedList içerisinde tutulan bir sayıdan sonra eklenmesi istenilen
+        //sayının eklenme işlemi aşağıdaki fonksiyon içerisinde yapılacaktır.
+        public void AddAfter(int addAfter, int data)
+        {
+            Node curr = head;
+
+            while(curr.next != null)
+            {
+                if (curr.data == addAfter)
+                {
+                    Node n= new Node(data);
+                    n.next = curr.next;
+                    curr.next = n;
+                    break;
+                }
+                curr = curr.next;
+            }
+        }
+        // LinkedList içerisinde tutulan bir sayıdan sonra silinmesi istenilen
+        //sayının silinme işlemi aşağıdaki fonksiyon içerisinde yapılacaktır.
+        public void DeleteAfter(int deleteAfter)
+        {
+            Node curr = head;
+            Node toDelete = null;
+            while(curr != null)
+            {
+                if(curr.data == deleteAfter)
+                {
+                    toDelete = curr.next;
+                    curr.next = toDelete.next;
+                    toDelete.next = null;
+                }
+                curr = curr.next;
+            }
+
         }
     }
 }

@@ -11,8 +11,12 @@ namespace leetcode
     {
         SingleNode head;
 
-         void addToEnd(int data)
+         public void addToEnd(int data)
         {
+            if (head == null)
+            {
+                head = new SingleNode(data);
+            }
             SingleNode curr = head;
             while (curr.next != null)
             {
@@ -20,9 +24,39 @@ namespace leetcode
             }
             curr.next = new SingleNode(data);
         }
-        void addToFront(int data)
+        public void addToFront(int data)
         {
+            SingleNode newNode = new SingleNode(data);
 
+            if (head == null)
+            {
+                head = newNode;
+            }
+            newNode.next = head;
+            head = newNode;
+
+        }
+        //son elemana ulaşmak için
+        public int ReturnLastDigit()
+        {
+            int last=0;
+            SingleNode curr = head;
+            while (curr.next!=null)
+            {
+                curr=curr.next;
+            }
+            last = curr.data;
+
+            return last;
+        }
+        public void print()
+        {
+            SingleNode curr = head;
+            while(curr.next!=null)
+            {
+                Console.WriteLine(curr.data+" -> ");
+                curr=curr.next;
+            }
         }
     }
 }
