@@ -11,7 +11,7 @@ namespace linkedlist
         public Node head;
         public int count = 0;
 
-        // Yeni bir nsne oluşturulduğunda head'e direkt bir null ataması yapılacaktır. 
+        // Yeni bir nesne oluşturulduğunda head'e direkt bir null ataması yapılacaktır. 
         public SingleLinkedList()
         {
             head = null;

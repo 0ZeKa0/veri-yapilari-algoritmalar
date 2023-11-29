@@ -102,6 +102,55 @@ namespace DoubleLinkedList
                 }
             
         }
+
+        public void addAfter(Node curr, int InsertAfter, int Data)
+        {
+            if (curr == null)
+            {
+                return;
+            }
+            if (curr.data == InsertAfter)
+            {
+                Node x= new Node(Data);
+                if(curr.next!= null)
+                {
+                    curr.next.prev = x;
+                    x.next = curr.next;
+                }
+                curr.next = x;
+                x.prev = curr;
+
+            }
+            else
+            {
+                addAfter(curr.next, InsertAfter, Data); 
+            }
+
+        }
+
+        public void DeleteAfter(int data)
+        {
+            Node toDelete = head;
+            for(; toDelete != null; toDelete = toDelete.next)
+            {
+                if(toDelete.data == data)
+                {
+                    toDelete =toDelete.next;
+                    break;
+                }
+            }
+
+            if(toDelete != null)
+            {
+                if(toDelete.next!= null)
+                {
+                    toDelete.next.prev = toDelete.prev;
+                }
+                toDelete.prev.next = toDelete.next;
+            }
+
+
+        }
        
     }
 }

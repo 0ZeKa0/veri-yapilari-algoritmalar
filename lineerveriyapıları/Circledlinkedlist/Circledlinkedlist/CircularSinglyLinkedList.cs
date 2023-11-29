@@ -94,7 +94,61 @@ namespace Circledlinkedlist
                 curr = curr.next;
             }
         }
+        public void AddAfter(int InsertAfter, int data)
+        {
+            if (last != null)
+            {
+                SingledNode curr = last;
+                do
+                {
+                    if (curr.data == InsertAfter)
+                    {
+                        SingledNode x = new SingledNode(data);
+                        x.next = curr.next;
+                        curr.next = x;
+                        break;
+                    }
+                    curr=curr.next;
 
+                } while (curr != null);
+            }
+        }
+
+        //öncelikle iki node oluşturulur. Nodelardan birincisi silinecek nodeu bilmek için ikincisi ise
+        //ilerleme ve verilen sayıyı bulabilmek için kullanılır. curr null olmadığında yani sonsuza kadar bu arama işlemi
+        //devam edecektir. while döngüsünün içine baktığımızda işaretlenmiş nodeun verisi aranan veriye eşit olduğu takdirde
+        //silenecek öğe bulunmuş nodeun bir sonraki nodeuna eşit olacaktır. curr.next==curr ise zaten yalnızca bir node kalıştır. O silinir.
+        //aksi durumda toDelete ile işaretlenen nodeu silme işlemi gerçekleştirilir.
+        
+        public void RemoveAfter(int data) 
+        {
+            if (last == null)
+            {
+                return;
+            }
+            SingledNode toDelete = null;
+            SingledNode curr = last;
+
+            do
+            {
+                if (curr.data == data)
+                {
+                    toDelete = curr.next;
+                    if(curr.next==curr)
+                    {
+                        last = null;
+                    }
+                    else
+                    {
+                        curr.next = toDelete.next;
+                        if (toDelete == last)
+                            last = curr;
+                    }
+                    break;
+                }
+                curr = curr.next;
+            } while (curr != null);
+        }
 
     }
 }
