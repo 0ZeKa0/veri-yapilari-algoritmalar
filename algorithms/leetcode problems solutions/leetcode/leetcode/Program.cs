@@ -23,6 +23,8 @@ class GFG
         l2.addToEnd(4);
 
         Linked_List_Sum(l1, l2);
+
+        
     }
     // istenilen toplam için dizi içinden sayılar bulup toplama işlemi
     // bu fonksiyon yalnızca 1 çift gönderir. 
@@ -59,6 +61,7 @@ class GFG
         LinkedList l3 = new LinkedList();
         int carry = 0;
         int result = 0;
+        int i = 0;
 
         while(l1!=null || l2!= null)
         {
@@ -66,7 +69,7 @@ class GFG
 
             if (l1!=null)
             {
-                l1_val = l1.ReturnLastDigit();
+                l1_val = l1.ReturnHead();
             }
             else
             {
@@ -74,7 +77,7 @@ class GFG
             }
             if (l2!=null)
             {
-                l2_val = l2.ReturnLastDigit();
+                l2_val = l2.ReturnHead();
             }
             else
             {
@@ -86,7 +89,10 @@ class GFG
             last_digit = result % 10;
             l3.addToEnd(last_digit);
 
+            l3.print();
+
+            i++;
         }
-        
+ 
     }
 }

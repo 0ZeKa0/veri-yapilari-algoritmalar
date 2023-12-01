@@ -11,6 +11,7 @@ namespace leetcode
     {
         SingleNode head;
 
+        
          public void addToEnd(int data)
         {
             if (head == null)
@@ -36,6 +37,10 @@ namespace leetcode
             head = newNode;
 
         }
+        public void RemoveFromFront()
+        {
+
+        }
         //son elemana ulaşmak için
         public int ReturnLastDigit()
         {
@@ -49,6 +54,11 @@ namespace leetcode
 
             return last;
         }
+        public int ReturnHead()
+        {
+
+            return head.data;
+        }
         public void print()
         {
             SingleNode curr = head;
@@ -58,5 +68,17 @@ namespace leetcode
                 curr=curr.next;
             }
         }
+
+        public int ReturnDataOfIndex(int flag)
+        {
+            SingleNode curr = head;
+            for(int i=0; i < flag; i++)
+            {
+                curr = curr.next;
+            }
+            return curr.data;
+        }
+
+        public 
     }
 }
