@@ -35,11 +35,14 @@ namespace leetcode
             }
             newNode.next = head;
             head = newNode;
-
         }
         public void RemoveFromFront()
         {
-
+            if(head!=null)
+            {
+                SingleNode toDelete = head;
+                head=head.next;
+            }
         }
         //son elemana ulaşmak için
         public int ReturnLastDigit()
@@ -56,9 +59,14 @@ namespace leetcode
         }
         public int ReturnHead()
         {
-
-            return head.data;
+            if(head is not null)
+            {
+                SingleNode curr = head;
+                return curr.data;
+            }
+            else { return 0; }
         }
+
         public void print()
         {
             SingleNode curr = head;
@@ -78,7 +86,5 @@ namespace leetcode
             }
             return curr.data;
         }
-
-        public 
     }
 }

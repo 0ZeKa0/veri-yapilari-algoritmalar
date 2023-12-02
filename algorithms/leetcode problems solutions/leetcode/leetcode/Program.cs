@@ -63,13 +63,14 @@ class GFG
         int result = 0;
         int i = 0;
 
-        while(l1!=null || l2!= null)
+        while(l1!=null || l2!= null && i<3)
         {
             int l1_val=0, l2_val=0, last_digit=0;
 
             if (l1!=null)
             {
                 l1_val = l1.ReturnHead();
+                l1.RemoveFromFront();
             }
             else
             {
@@ -78,6 +79,7 @@ class GFG
             if (l2!=null)
             {
                 l2_val = l2.ReturnHead();
+                l2.RemoveFromFront();
             }
             else
             {
@@ -92,6 +94,7 @@ class GFG
             l3.print();
 
             i++;
+
         }
  
     }
