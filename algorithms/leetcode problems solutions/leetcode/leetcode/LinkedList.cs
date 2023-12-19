@@ -72,7 +72,7 @@ namespace leetcode
             SingleNode curr = head;
             while(curr.next!=null)
             {
-                Console.WriteLine(curr.data+" -> ");
+                Console.WriteLine(curr.data);
                 curr=curr.next;
             }
         }
