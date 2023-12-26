@@ -1,5 +1,8 @@
-﻿using leetcode;
+﻿using DocumentFormat.OpenXml.ExtendedProperties;
+using leetcode;
+using NHibernate.Mapping;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 
 class GFG
@@ -10,6 +13,7 @@ class GFG
     {
         int[]arr= { 2,7,8,1};
         int target = 9;
+        string s = "abbcbdba";
         Console.WriteLine(sum(arr,target));
         int vl1 = 2, vl2 = 4, vl3 = 3, vl4 = 5, vl5 = 6, vl6 = 4;
         int[] arr1 = { vl1, vl2, vl3 };
@@ -26,12 +30,8 @@ class GFG
         l2.addToEnd(vl6);
 
         Linked_List_Sum(arr1, arr2);
-
-        
-
-        
-
-        
+        lengthOfLongestSubsitring(s);
+         
     }
     // istenilen toplam için dizi içinden sayılar bulup toplama işlemi
     // bu fonksiyon yalnızca 1 çift gönderir. 
@@ -137,4 +137,25 @@ class GFG
 
         return head.next;
     }
+
+    public static int lengthOfLongestSubsitring(String s)
+    {
+        int start = 0, len = 0;
+        var map = new Hashtable();
+
+        for (int end=0; end<s.Length;end++)
+        {
+            char c = s[end];
+            if (map.ContainsKey(c))
+            {
+                if (start<=map))
+                {
+
+                }
+            }
+        }
+
+        return len;
+    }
+
 }
