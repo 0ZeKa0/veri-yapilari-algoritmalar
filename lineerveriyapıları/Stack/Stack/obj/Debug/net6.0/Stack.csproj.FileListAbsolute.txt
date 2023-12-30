@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\bin\Debug\net6.0\Stack.exe
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\bin\Debug\net6.0\Stack.deps.json
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\bin\Debug\net6.0\Stack.runtimeconfig.json
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\bin\Debug\net6.0\Stack.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\bin\Debug\net6.0\Stack.pdb
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\Stack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\Stack.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\Stack.AssemblyInfo.cs
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\Stack.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\Stack.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\refint\Stack.dll
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\Stack.pdb
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\Stack.genruntimeconfig.cache
+C:\Users\PC\Desktop\algorithms\lineerveriyapıları\Stack\Stack\obj\Debug\net6.0\ref\Stack.dll
