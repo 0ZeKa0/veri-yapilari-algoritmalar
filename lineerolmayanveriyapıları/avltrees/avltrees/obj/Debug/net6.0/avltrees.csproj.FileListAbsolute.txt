@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\bin\Debug\net6.0\avltrees.exe
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\bin\Debug\net6.0\avltrees.deps.json
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\bin\Debug\net6.0\avltrees.runtimeconfig.json
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\bin\Debug\net6.0\avltrees.dll
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\bin\Debug\net6.0\avltrees.pdb
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\avltrees.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\avltrees.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\avltrees.AssemblyInfo.cs
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\avltrees.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\avltrees.dll
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\refint\avltrees.dll
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\avltrees.pdb
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\avltrees.genruntimeconfig.cache
+C:\Users\PC\Desktop\algorithms\lineerolmayanveriyapıları\avltrees\avltrees\obj\Debug\net6.0\ref\avltrees.dll
