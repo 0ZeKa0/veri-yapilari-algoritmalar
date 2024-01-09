@@ -56,6 +56,65 @@ namespace avltrees
             return node;
         }
 
+        public AVLNode Insert(AVLNode node, int data)
+        {
+            //Girilen veriden başka bir veri yoksa bu veri ağaçtaki root olur.
+            if(node == null)
+                return new AVLNode(data);
+
+
+            if (data < node.Data)
+                node.Left = Insert(node.Left, data);
+            else if (data > node.Data)
+                node.Right = Insert(node.Right, data);
+            else
+                return node;
+
+            node.Height = 1 + Math.Max(Height(node.Left),Height(node.Right));
+
+            int balance = GetBalanced(node);
+
+            if(balance>1&&data<node.Left.Data)
+                return RightRotation(node);
+
+            if(balance< -1 && data>node.Right.Data)
+                return LeftRotation(node);
+
+            //iki tane iç içe rotasyon işlemi yapıldı.
+            if (balance > 1 && data > node.Left.Data && data<node.Right.Data)
+            {
+                node.Left=LeftRotation(node.Left);
+                return RightRotation(node);
+            }
+
+            //Burada da iki iç içe rotasyon işlemi yapıldı.
+            if(balance< -1 && data < node.Right.Data && data>node.Left.Data)
+            {
+                node.Right = RightRotation(node.Right);
+                return LeftRotation(node);
+            }
+
+            return node;
+        }
+
+        public void Insert(int data)
+        {
+            root=Insert(root, data);
+        }
+
+        private void InOrderTraversal(AVLNode node)
+        {
+            if(node != null)
+            {
+                InOrderTraversal(node.Left);
+                Console.WriteLine(node.Data+" ");
+                InOrderTraversal(node.Right);
+            }
+        }
+        public void InOrderTraversal()
+        {
+            InOrderTraversal(root);
+        }
 
     }
 }
